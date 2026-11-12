@@ -1,0 +1,11 @@
+[package]
+name = "curve25519"
+version = "0.1.0"
+edition = "2024"
+
+[profile.release]
+panic = 'abort'
+
+[dependencies]
+getrandom = "0.4.3"
+zeroize = { version = "1.9.1", features = ["derive"] }
