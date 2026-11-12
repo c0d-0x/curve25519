@@ -1,6 +1,6 @@
 use zeroize::{Zeroize, ZeroizeOnDrop};
 
-// 256 bit field element (x,y) 128 bit each
+// 256 bit field element, for all (x,y) in F_P
 // X = [64bit x16 ], Y = calculatable from X
 #[derive(Debug, Clone, Default, Zeroize, ZeroizeOnDrop)]
 pub struct FieldElement(pub [i64; 16]);
@@ -179,6 +179,7 @@ impl FieldElement {
         bytes
     }
 
+    // use only for test purposes
     #[allow(dead_code)]
     pub(crate) fn from_hex32(s: &str) -> [u8; 32] {
         let mut out = [0u8; 32];

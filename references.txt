@@ -1,0 +1,22 @@
+1. Bernstein, D. J. (2006). Curve25519: new Diffie-Hellman speed records.
+2. Bernstein, D. J. (2006). Can we avoid tests for zero in fast elliptic-curve arithmetic?
+3. Chen, L., Moody, D., Regenscheid, A., Robinson, A., & Randall, K. (2023).
+Recommendations for Discrete Logarithm-based Cryptography:. https://doi.org/10.6028/NIST.SP.800-186
+4. Schwabe, P., Viguier, B., Weerwag, T., & Wiedijk, F. (2021). A Coq proof of the correctness
+of X25519 in TweetNaCl. https://doi.org/10.5281/zenodo.4439686
+5. Shevchuk, O. (2020). INTRODUCTION TO ELLIPTIC CURVE CRYPTOGRAPHY.
+6. Washington, L. C. (2008). Elliptic Curves Number Theory and Cryptography Second Edition.
+7. Costello, C., & Smith, B. (2018). Montgomery curves and their arithmetic The case of large characteristic fields.
+8. Costello, C. (n.d.). Pairings for beginners.
+9. Shevchuk, O. (n.d.). INTRODUCTION TO ELLIPTIC CURVE CRYPTOGRAPHY.
+10. Assoujaa, I., & Ezzouak, S. (2024, April 18). Compression points in elliptic Montgomery
+and Edwards curves. ACM International Conference Proceeding Series. https://doi.org/10.1145/3659677.3659834
+11. Assoujaa, I., & Ezzouak, S. (2024, April 18). Compression points in elliptic Montgomery
+and Edwards curves. ACM International Conference Proceeding Series. https://doi.org/10.1145/3659677.3659834
+12. Nath, K., & Sarkar, P. (n.d.). Constant Time Montgomery Ladder.
+13. Martin Kleppmann. (2022). Implementing Curve25519/X25519: A Tutorial on Elliptic
+Curve Cryptography. CEUR Workshop Proceedings, 2657, 1–9. https://doi.org/10.1145/nnnnnnn.nnnnnnn
+14. Efficient and secure elliptic curves. (n.d.).
+15. Hışıl, H. H. (2010). Elliptic Curves, Group Law, and Efficient Computation.
+16. Koç, E. K., & Acar, T. (1998). Montgomery Multiplication in GF(2 k ) * **. In Codes and
+Cryptography (Vol. 14, Issue 1).

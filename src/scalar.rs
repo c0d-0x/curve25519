@@ -1,6 +1,5 @@
 use crate::errors::Curve25519Error;
 use crate::montgomery::MontgomeryPoint;
-use getrandom;
 use zeroize::{Zeroize, ZeroizeOnDrop};
 
 #[derive(Debug, Clone, Default, Zeroize, ZeroizeOnDrop)]
@@ -42,10 +41,7 @@ mod test {
 
     #[test]
     fn test_scalar() {
-        let buf = match Scalar::random_bytes::<32>() {
-            Ok(b) => Scalar::from(b),
-            Err(e) => panic!("{}", e),
-        };
+        let buf = Scalar::from(Scalar::random_bytes::<32>().expect("Failed to fetch randombytes"));
 
         assert_eq!(buf.bytes.len(), 32)
     }
